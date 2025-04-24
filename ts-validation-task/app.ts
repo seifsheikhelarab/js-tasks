@@ -15,7 +15,7 @@ app.use(morgan("dev"));
 
 //Navigation
 app.get('/', (req, res) => {
-  res.render("index");
+    res.render("index");
 });
 
 app.post("/",urlencodedParser ,
